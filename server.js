@@ -51,6 +51,7 @@ const connectDB = async () => {
 app.get("/test", (req, res) => {
     res.json({ message: "Server is running" });
 });
+}
 
 // app.post('/test', async (req, res) => {
 //     const options = {
