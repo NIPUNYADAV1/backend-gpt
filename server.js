@@ -48,7 +48,9 @@ const connectDB = async () => {
     } catch (err) {
          console.log("Failed to connect to Database:", err);
     }
-}
+app.get("/test", (req, res) => {
+    res.json({ message: "Server is running" });
+});
 
 // app.post('/test', async (req, res) => {
 //     const options = {
