@@ -49,7 +49,7 @@ const connectDB = async () => {
          console.log("Failed to connect to Database:", err);
     }
 app.get("/test", (req, res) => {
-    res.json({ message: "Server is running" });
+    res.json({ message: "Final: Server is running" });
 });
 }
 
